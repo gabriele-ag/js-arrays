@@ -50,6 +50,12 @@ console.log(teachers);
 const isFabioPresent = teachers.includes('Fabio');
 console.log(isFabioPresent);
 
+if (isFabioPresent === true) {
+  console.log('Fabio è presente')
+} else {
+  console.log('Fabio non è presente')
+}
+
 // 8. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
 let positionLewis = teachers.indexOf('Lewis', 0)
