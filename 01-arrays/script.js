@@ -66,3 +66,9 @@ console.log(teachersString);
 // e salva il risultato nella variabile isTeachersEmpty
 const isTeachersEmpty = teachers.length;
 console.log(isTeachersEmpty)
+
+if (teachers === 0) {
+  console.log("l'array è vuota");
+ } else {
+  console.log("l'array non è vuota");
+ } 
